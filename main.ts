@@ -58,9 +58,3 @@ basic.showLeds(`
     # . # . #
     # . # . #
     `)
-basic.forever(function () {
-    music.playMelody("C D C F G F A C5 ", 120)
-})
-control.inBackground(function () {
-	
-})
