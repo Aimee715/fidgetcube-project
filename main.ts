@@ -6,10 +6,10 @@ input.onButtonPressed(Button.A, function () {
         . . # . .
         . . # . .
         `)
-    basic.showString("BLOW")
+    basic.showString("happy birthday ")
 })
 input.onButtonPressed(Button.AB, function () {
-    for (let index = 0; index < 10; index++) {
+    for (let index = 0; index < 30; index++) {
         basic.showLeds(`
             . # # # .
             # . . . #
@@ -40,15 +40,6 @@ input.onGesture(Gesture.Shake, function () {
     } else {
         basic.showString("P")
     }
-})
-input.onSound(DetectedSound.Quiet, function () {
-    basic.showLeds(`
-        . . . . #
-        . . . . .
-        . . # # .
-        . . # . .
-        . . # . .
-        `)
 })
 let RPS = 0
 basic.showLeds(`
